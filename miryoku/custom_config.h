@@ -1,11 +1,6 @@
 // Copyright 2021 Manna Harbour
 // https://github.com/manna-harbour/miryoku
 
-#define MIRYOKU_ALPHAS=QWERTY
-#define MIRYOKU_NAV_VI
-#define MIRYOKU_MOUSE_VI
-#define MIRYOKU_MEDIA_VI
-
 #define MIRYOKU_ALTERNATIVES_TAP_QWERTY \
 &kp Q,             &kp W,             &kp E,             &kp R,             &kp T,             &kp Y,             &kp U,             &kp I,             &kp O,             &kp P,             \
 &kp A,             &kp S,             &kp D,             &kp F,             &kp G,             &kp H,             &kp J,             &kp K,             &kp L,             &kp SQT,           \
@@ -35,3 +30,9 @@ U_BOOT,            &u_to_U_TAP,       &u_to_U_EXTRA,     &u_to_U_BASE,      U_NA
 &kp LSHFT,          &kp LCTRL,          &kp LALT,         &kp LGUI,         U_NA,              &kp C_PREV,        &kp C_VOL_DN,      &kp C_VOL_UP,      &kp C_NEXT,        U_EP_TOG,          \
 U_NA,              &kp RALT,          &u_to_U_FUN,       &u_to_U_MEDIA,     U_NA,              &u_bt_sel_0,       &u_bt_sel_1,       &u_bt_sel_2,       &u_bt_sel_3,       &u_out_tog,        \
 U_NP,              U_NP,              U_NA,              U_NA,              U_NA,              &kp C_STOP,        &kp C_PP,          &kp C_MUTE,        U_NP,              U_NP
+
+
+#define MIRYOKU_ALPHAS=QWERTY
+#define MIRYOKU_NAV_VI
+#define MIRYOKU_MOUSE_VI
+#define MIRYOKU_MEDIA_VI
