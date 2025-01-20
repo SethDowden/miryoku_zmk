@@ -1,0 +1,16 @@
+# Copyright 2024 Manna Harbour
+# https://github.com/manna-harbour/miryoku
+
+name: "Build Totem Dongle"
+on: workflow_dispatch
+jobs:
+  build:
+    uses: ./.github/workflows/main.yml
+    secrets: inherit
+    with:
+      board: '["seeeduino_xiao_ble"]'
+      shield: '["totem_dongle_left","totem_dongle_right","totem_dongle_central","settings_reset"]'
+      alphas: '["QWERTY"]'
+      nav: '["vi"]'
+      kconfig: '["CONFIG_ZMK_POINTING=y"]'
+      branches: '["zmkfirmware/zmk/main"]'

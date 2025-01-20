@@ -16,18 +16,6 @@
       #binding-cells = <0>; \
       __VA_ARGS__ \
     }; \
-        colcol: colcol { \
-        compatible = "zmk,behavior-macro"; \
-        #binding-cells = <0>; \
-        bindings = <&kp COLON &kp COLON>; \
-        label = "COLCOL"; \
-    }; \
-    updir: updir { \
-        compatible = "zmk,behavior-macro"; \
-        #binding-cells = <0>; \
-        bindings = <&none &kp DOT &kp DOT &kp FSLH>; \
-        label = "UPDIR"; \
-    }; \
   }; \
 };
 
@@ -35,7 +23,8 @@
 #define U_NA &none // present but not available for use
 #define U_NU &none // available but not used
 
-#define U_TAPPING_TERM 200
+#define U_TAPPING_TERM 150
+#define U_TAPPING_TERM_SLOW 200
 
 #include "miryoku_clipboard.h"
 
@@ -43,11 +32,7 @@
 
 #include "miryoku_shift_functions.h"
 
-#if defined (MIRYOKU_KLUDGE_MOUSEKEYSPR)
-  #include "miryoku_kludge_mousekeyspr.h"
-#else
-  #include "miryoku_mousekeys.h"
-#endif
+#include "miryoku_mouse.h"
 
 #if defined (MIRYOKU_KLUDGE_TAPDELAY)
   #include "miryoku_kludge_tapdelay.h"

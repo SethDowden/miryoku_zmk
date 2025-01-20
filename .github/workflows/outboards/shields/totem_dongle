@@ -1,0 +1,7 @@
+# Copyright 2022 Manna Harbour
+# https://github.com/manna-harbour/miryoku
+
+outboard_repository=peppapighs/zmk-config
+outboard_ref=main
+outboard_from=config/boards/shields/totem_dongle
+outboard_to=boards/shields/totem_dongle
