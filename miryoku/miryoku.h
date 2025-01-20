@@ -16,6 +16,18 @@
       #binding-cells = <0>; \
       __VA_ARGS__ \
     }; \
+        colcol: colcol { \
+        compatible = "zmk,behavior-macro"; \
+        #binding-cells = <0>; \
+        bindings = <&kp COLON &kp COLON>; \
+        label = "COLCOL"; \
+    }; \
+    updir: updir { \
+        compatible = "zmk,behavior-macro"; \
+        #binding-cells = <0>; \
+        bindings = <&none &kp DOT &kp DOT &kp FSLH>; \
+        label = "UPDIR"; \
+    }; \
   }; \
 };
 
