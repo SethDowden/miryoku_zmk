@@ -51,9 +51,9 @@ U_LT(U_BUTTON, Z), U_MT(RALT, X),     &kp C,              &kp V,              &k
 U_NP,              U_NP,              &kp DOT,            &kp MINUS,          &kp PLUS,           U_NA,              U_NA,              U_NA,              U_NP,              U_NP
 
 #define MIRYOKU_LAYER_SYM \
-&kp QUOT,         &kp LABK,          &kp GT,            &kp DQT,           &kp DOT,           &kp AMPS,          &kp COLON,         &kp LBRC,          &kp RBRC,          &kp PERC,          \
-&kp EXCL,         &kp MINUS,         &kp PLUS,          &kp EQL,           &kp HASH,          &kp PIPE,          &kp COLON,         &kp LPAR,          &kp RPAR,          &kp QUES,          \
-&kp CIRC,         &kp SLSH,          &kp ASTRK,         &kp BSLS,          &kp DOT,           &kp DLR,           &kp LCBR,          &kp RCBR,          &kp AT,            U_NA,              \
+&kp QUOT,         &kp BSLH,          &kp GT,            &kp DQT,           &kp DOT,           &kp AMPS,          &kp COLCOL,         &kp LBKT,          &kp RBKT,          &kp PRCNT,          \
+&kp EXCL,         &kp MINUS,         &kp PLUS,          &kp EQUAL,         &kp HASH,          &kp PIPE,          &kp COLON,         &kp LPAR,          &kp RPAR,          &kp QMARK,          \
+&kp CIRC,         &kp SLSH,          &kp STAR,         &kp BSLH,           kp UPDIR,          &kp TILDE,         &kp DLLR,         &kp LBRC,          &kp RBRC,           &kp AT,              \
 U_NP,             U_NP,              &kp LPAR,          &kp RPAR,          &kp UNDER,         U_NA,              U_NA,              U_NA,              U_NP,              U_NP               
 
 
