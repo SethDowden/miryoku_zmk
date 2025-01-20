@@ -7,7 +7,7 @@
 // #define MIRYOKU_MOUSE
 // #define MIRYOKU_MEDIA
 
-#define XXX &none
+// #define XXX &none
 
 #define MIRYOKU_LAYER_BASE \
 &kp Q,              &kp W,             &kp E,              &kp R,              &kp T,              &kp Y,             &kp U,             &kp I,             &kp O,             &kp P,                 \
@@ -45,17 +45,17 @@ U_BOOT,            &u_to_U_TAP,       &u_to_U_EXTRA,     &u_to_U_BASE,      U_NA
 U_NA,              &kp RALT,          &u_to_U_FUN,       &u_to_U_MEDIA,     U_NA,              &u_bt_sel_0,       &u_bt_sel_1,       &u_bt_sel_2,       &u_bt_sel_3,       &u_out_tog,        \
 U_NP,              U_NP,              U_NA,              U_NA,              U_NA,              &kp C_STOP,        &kp C_PP,          &kp C_MUTE,        U_NP,              U_NP
   
-#define MIRYOKU_LAYER_NUM \
-&kp EXCL,          &kp AT,            &kp HASH,           &kp DLLR,           &kp PRCNT,          &kp CARET,         &kp AMPS,          &kp ASTRK,         &kp LPAR,          &kp RPAR,        \
-U_MT(LSHFT, N1),   U_MT(LCTRL, N2),   U_MT(LALT, N3),     U_MT(LGUI, N4),     &kp N5,             &kp N6,            U_MT(LGUI, N7),    U_MT(LALT, N8),    U_MT(LCTRL, N9),   U_MT(LSHFT, N0), \
-U_LT(U_BUTTON, Z), U_MT(RALT, X),     &kp C,              &kp V,              &kp B,              &kp N,             &kp M,             &kp COMMA,         U_MT(RALT, DOT),   U_LT(U_BUTTON, SLASH),\
-U_NP,              U_NP,              &kp DOT,            &kp MINUS,          &kp PLUS,           U_NA,              U_NA,              U_NA,              U_NP,              U_NP
+// #define MIRYOKU_LAYER_NUM \
+// &kp EXCL,          &kp AT,            &kp HASH,           &kp DLLR,           &kp PRCNT,          &kp CARET,         &kp AMPS,          &kp ASTRK,         &kp LPAR,          &kp RPAR,        \
+// U_MT(LSHFT, N1),   U_MT(LCTRL, N2),   U_MT(LALT, N3),     U_MT(LGUI, N4),     &kp N5,             &kp N6,            U_MT(LGUI, N7),    U_MT(LALT, N8),    U_MT(LCTRL, N9),   U_MT(LSHFT, N0), \
+// U_LT(U_BUTTON, Z), U_MT(RALT, X),     &kp C,              &kp V,              &kp B,              &kp N,             &kp M,             &kp COMMA,         U_MT(RALT, DOT),   U_LT(U_BUTTON, SLASH),\
+// U_NP,              U_NP,              &kp DOT,            &kp MINUS,          &kp PLUS,           U_NA,              U_NA,              U_NA,              U_NP,              U_NP
 
-#define MIRYOKU_LAYER_SYM \
-&kp QUOT,         &kp LABK,          &kp GT,            &kp DQT,           &kp DOT,           &kp AMPS,          &kp COLON,         &kp LBRC,          &kp RBRC,          &kp PERC,          \
-&kp EXCL,         &kp MINUS,         &kp PLUS,          &kp EQL,           &kp HASH,          &kp PIPE,          &kp COLON,         &kp LPAR,          &kp RPAR,          &kp QUES,          \
-&kp CIRC,         &kp SLSH,          &kp ASTRK,         &kp BSLS,          &kp DOT,           &kp DLR,           &kp LCBR,          &kp RCBR,          &kp AT,            U_NA,              \
-U_NP,             U_NP,              &kp LPAR,          &kp RPAR,          &kp UNDER,         U_NA,              U_NA,              U_NA,              U_NP,              U_NP               
+// #define MIRYOKU_LAYER_SYM \
+// &kp QUOT,         &kp LABK,          &kp GT,            &kp DQT,           &kp DOT,           &kp AMPS,          &kp COLON,         &kp LBRC,          &kp RBRC,          &kp PERC,          \
+// &kp EXCL,         &kp MINUS,         &kp PLUS,          &kp EQL,           &kp HASH,          &kp PIPE,          &kp COLON,         &kp LPAR,          &kp RPAR,          &kp QUES,          \
+// &kp CIRC,         &kp SLSH,          &kp ASTRK,         &kp BSLS,          &kp DOT,           &kp DLR,           &kp LCBR,          &kp RCBR,          &kp AT,            U_NA,              \
+// U_NP,             U_NP,              &kp LPAR,          &kp RPAR,          &kp UNDER,         U_NA,              U_NA,              U_NA,              U_NP,              U_NP               
 
 
 // // Direct custom layer access
