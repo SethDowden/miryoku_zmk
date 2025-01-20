@@ -50,11 +50,11 @@ U_MT(LSHFT, N1),   U_MT(LCTRL, N2),   U_MT(LALT, N3),     U_MT(LGUI, N4),     &k
 U_LT(U_BUTTON, Z), U_MT(RALT, X),     &kp C,              &kp V,              &kp B,              &kp N,             &kp M,             &kp COMMA,         U_MT(RALT, DOT),   U_LT(U_BUTTON, SLASH), \
 U_NP,              U_NP,              &kp DOT,            &kp MINUS,          &kp PLUS,           U_NA,              U_NA,              U_NA,              U_NP,              U_NP
 
-// #define MIRYOKU_LAYER_SYM \
-// &kp QUOT,         &kp LABK,          &kp GT,            &kp DQT,           &kp DOT,           &kp AMPS,          &kp COLON,         &kp LBRC,          &kp RBRC,          &kp PERC,          \
-// &kp EXCL,         &kp MINUS,         &kp PLUS,          &kp EQL,           &kp HASH,          &kp PIPE,          &kp COLON,         &kp LPAR,          &kp RPAR,          &kp QUES,          \
-// &kp CIRC,         &kp SLSH,          &kp ASTRK,         &kp BSLS,          &kp DOT,           &kp DLR,           &kp LCBR,          &kp RCBR,          &kp AT,            U_NA,              \
-// U_NP,             U_NP,              &kp LPAR,          &kp RPAR,          &kp UNDER,         U_NA,              U_NA,              U_NA,              U_NP,              U_NP               
+#define MIRYOKU_LAYER_SYM \
+&kp QUOT,         &kp LABK,          &kp GT,            &kp DQT,           &kp DOT,           &kp AMPS,          &kp COLON,         &kp LBRC,          &kp RBRC,          &kp PERC,          \
+&kp EXCL,         &kp MINUS,         &kp PLUS,          &kp EQL,           &kp HASH,          &kp PIPE,          &kp COLON,         &kp LPAR,          &kp RPAR,          &kp QUES,          \
+&kp CIRC,         &kp SLSH,          &kp ASTRK,         &kp BSLS,          &kp DOT,           &kp DLR,           &kp LCBR,          &kp RCBR,          &kp AT,            U_NA,              \
+U_NP,             U_NP,              &kp LPAR,          &kp RPAR,          &kp UNDER,         U_NA,              U_NA,              U_NA,              U_NP,              U_NP               
 
 
 
