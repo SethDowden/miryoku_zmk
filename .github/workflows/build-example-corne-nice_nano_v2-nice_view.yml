@@ -10,5 +10,6 @@ jobs:
     with:
       board: '["nice_nano_v2"]'
       shield: '["corne_left nice_view_adapter nice_view","corne_right nice_view_adapter nice_view"]'
-      kconfig: '["CONFIG_ZMK_MOUSE=y\nCONFIG_BT_CTLR_TX_PWR_PLUS_8=y\nCONFIG_ZMK_SLEEP=y\nCONFIG_ZMK_IDLE_SLEEP_TIMEOUT=1800000"]'
+      custom_config: '["#define MIRYOKU_KLUDGE_MOUSEKEYSPR"]'
+      kconfig: '["CONFIG_ZMK_MOUSE=y"]'
       branches: '["petejohanson/zmk/feat/pointers-move-scroll"]'
