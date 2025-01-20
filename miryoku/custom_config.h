@@ -52,8 +52,8 @@ U_NP,              U_NP,              &kp DOT,            &kp MINUS,          &k
 
 #define MIRYOKU_LAYER_SYM \
 &kp APOS,         &kp BSLH,          &kp GT,            &kp DQT,           &kp DOT,           &kp AMPS,          &kp COLON,        &kp LBKT,          &kp RBKT,          &kp PRCNT,          \
-&kp EXCL,         &kp MINUS,         &kp PLUS,          &kp EQUAL,         &kp HASH,          &kp PIPE,          &kp COLON,         &kp LPAR,          &kp RPAR,          &kp QMARK,          \
-&kp CARET,        &kp SLASH,         &kp STAR,          &kp BSLH,          &kp UPDIR,         &kp TILDE,         &kp DLLR,          &kp LBRC,          &kp RBRC,          &kp AT,              \
+&kp EXCL,         &kp MINUS,         &kp PLUS,          &kp EQUAL,         &kp HASH,          &kp PIPE,          &COLCOL,         &kp LPAR,          &kp RPAR,          &kp QMARK,          \
+&kp CARET,        &kp SLASH,         &kp STAR,          &kp BSLH,          &UPDIR,         &kp TILDE,         &kp DLLR,          &kp LBRC,          &kp RBRC,          &kp AT,              \
 U_NP,             U_NP,              &kp LPAR,          &kp RPAR,          &kp UNDER,         U_NA,              U_NA,              U_NA,              U_NP,              U_NP               
 
 
