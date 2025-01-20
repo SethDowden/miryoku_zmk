@@ -6,8 +6,6 @@
 #define MIRYOKU_NAV_VI
 #define MIRYOKU_MOUSE_VI
 #define MIRYOKU_MEDIA_VI
-#define MIRYOKU_NUM
-#define MIRYOKU_SYM
 
 
 #define MIRYOKU_ALTERNATIVES_TAP_QWERTY \
@@ -72,3 +70,5 @@ U_NP,             U_NP,              &kp LPAR,          &kp RPAR,          &kp U
 #define MIRYOKU_NAV_VI
 #define MIRYOKU_MOUSE_VI
 #define MIRYOKU_MEDIA_VI
+#define MIRYOKU_NUM
+#define MIRYOKU_SYM
