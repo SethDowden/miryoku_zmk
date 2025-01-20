@@ -6,6 +6,8 @@
 #define MIRYOKU_NAV_VI
 #define MIRYOKU_MOUSE_VI
 #define MIRYOKU_MEDIA_VI
+#define MIRYOKU_NUM
+#define MIRYOKU_SYM
 
 
 #define MIRYOKU_ALTERNATIVES_TAP_QWERTY \
@@ -56,6 +58,14 @@ U_UND,             U_CUT,             U_CPY,             U_PST,             U_RD
 &kp LGUI,          &kp LALT,          &kp LCTRL,         &kp LSHFT,         U_NU,              U_NU,              &kp LSHFT,         &kp LCTRL,         &kp LALT,          &kp LGUI,          \
 U_UND,             U_CUT,             U_CPY,             U_PST,             U_RDO,             U_RDO,             U_PST,             U_CPY,             U_CUT,             U_UND,             \
 U_NP,              U_NP,              U_BTN3,            U_BTN1,            U_BTN2,            U_BTN2,            U_BTN1,            U_BTN3,            U_NP,              U_NP
+
+
+#define MIRYOKU_ALTERNATIVES_SYM \
+&kp QUOT,         &kp LABK,          &kp GT,            &kp DQT,           &kp DOT,           &kp AMPS,          &kp COLON,         &kp LBRC,          &kp RBRC,          &kp PERC,          &kp BSLS,          \
+&kp EXCL,         &kp MINUS,         &kp PLUS,          &kp EQL,           &kp HASH,          &kp PIPE,          &kp COLON,         &kp LPAR,          &kp RPAR,          &kp QUES,          \
+&kp CIRC,         &kp SLSH,          &kp ASTRK,         &kp BSLS,          &kp DOTDOTSLASH,   &kp DLR,           &kp LCBR,          &kp RCBR,          &kp AT,            U_NA
+U_NP,              U_NP,              &kp LPAR,          &kp RPAR,          &kp UNDER,         U_NA,              U_NA,              U_NA,              U_NP,              U_NP
+
 
 
 #define MIRYOKU_ALPHAS=QWERTY
