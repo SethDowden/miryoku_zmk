@@ -61,10 +61,10 @@ U_NP,              U_NP,              U_BTN3,            U_BTN1,            U_BT
 
 
 #define MIRYOKU_ALTERNATIVES_SYM \
-&kp QUOT,         &kp LABK,          &kp GT,            &kp DQT,           &kp DOT,           &kp AMPS,          &kp COLON,         &kp LBRC,          &kp RBRC,          &kp PERC,          &kp BSLS,          \
+&kp QUOT,         &kp LABK,          &kp GT,            &kp DQT,           &kp DOT,           &kp AMPS,          &kp COLON,         &kp LBRC,          &kp RBRC,          &kp PERC,          \
 &kp EXCL,         &kp MINUS,         &kp PLUS,          &kp EQL,           &kp HASH,          &kp PIPE,          &kp COLON,         &kp LPAR,          &kp RPAR,          &kp QUES,          \
-&kp CIRC,         &kp SLSH,          &kp ASTRK,         &kp BSLS,          &kp DOTDOTSLASH,   &kp DLR,           &kp LCBR,          &kp RCBR,          &kp AT,            U_NA
-U_NP,              U_NP,              &kp LPAR,          &kp RPAR,          &kp UNDER,         U_NA,              U_NA,              U_NA,              U_NP,              U_NP
+&kp CIRC,         &kp SLSH,          &kp ASTRK,         &kp BSLS,          &kp DOT,           &kp DLR,           &kp LCBR,          &kp RCBR,          &kp AT,            U_NA,              \
+U_NP,             U_NP,              &kp LPAR,          &kp RPAR,          &kp UNDER,         U_NA,              U_NA,              U_NA,              U_NP,              U_NP               
 
 
 
